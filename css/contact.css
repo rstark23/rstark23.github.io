@@ -1,0 +1,144 @@
+/* add your css on this page */
+body { 
+    background-color: #422a25;
+    color: #1E1B0E;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    background-image: -webkit-linear-gradient(30deg, #ad3b1f 0%, #ad3b1f 30%, #ad3b1f 50%, #ad3b1f 80%, #ad3b1f 100%);
+}
+
+#MainArticle {
+    border: white 2px solid;
+    margin: 20px;
+    padding: 100px;
+    background-color: #bf9053;
+    
+}
+
+fieldset {
+    margin-bottom: .5em;
+    padding: .5em 1em;
+}
+legend {
+    font-weight: bold;
+    font-size: 85%;
+    padding-bottom: .5em;
+}
+label, input, select {
+	font-size: 90%;
+}
+label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+input, select {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+input:required, input[required] input:invalid {
+	border: 2px solid black;
+}
+input:valid {
+	border: 1px solid black;
+}
+input:invalid {
+	box-shadow: none;
+}
+br {
+    clear: both;
+}
+#radio label {
+	float: none;
+}
+#radio input {
+	width: auto;
+	margin-left: 3em;
+}
+#exp_month {
+	width: 7em;
+}
+#exp_year {
+	width: 5em;
+}
+#buttons input {
+	width: 10em;
+    color: #ad3b1f;
+}
+
+#logo {
+    margin-left: 805px;
+}
+#menuPlanner,span {
+    float: right;
+    margin: 0 10px 0 20px;
+}
+
+nav {
+    position: absolute;
+    right: 7.6em;
+    top: 5.2em;
+    
+}
+
+.navItem1 {
+    color: white;
+    padding: 0em;
+    font-size: 2.3em;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 1em;
+    
+
+}
+
+.navItem2 {
+    color: white;
+    padding: 5.5em;
+    font-size: 2.3em;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 1em;
+
+}
+
+.navItem3 {
+    color: #b3b3b3;
+    padding: 2em;
+    font-size: 2.3em;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 1em;
+
+}
+
+.navItem4 {
+    color: white;
+    padding: 2em;
+    font-size: 2.3em;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 1em;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+footer {
+    margin: 5px;
+    color: white;
+}
