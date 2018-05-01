@@ -1,9 +1,6 @@
 /* add your css on this page */
 body { 
-    background-color: #422a25;
-    color: #1E1B0E;
-    margin: 0;
-    padding: 0;
+    background-image: url("../img/background.png");   
 }
 
 header {
@@ -18,7 +15,7 @@ header {
     border: white 2px solid;
     margin: 20px;
     padding: 100px;
-    background-color: #bf9053;
+    background-color: #bf9053;opacity: 0.8;
     
 }
 
@@ -45,7 +42,7 @@ header {
 
 nav {
     position: absolute;
-    right: 7.6em;
+    right: 5.7em;
     top: 5.2em;
     
 }
@@ -99,4 +96,5 @@ h1 {
 footer {
     margin: 5px;
     color: white;
+    font-size: 1.3em;
 }

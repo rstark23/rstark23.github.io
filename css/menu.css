@@ -1,9 +1,6 @@
 /* add your css on this page */
 body { 
-    background-color: #422a25;
-    color: #1E1B0E;
-    margin: 0;
-    padding: 0;
+    background-image: url("../img/background.png");   
 }
 
 header {
@@ -18,21 +15,34 @@ header {
     border: white 2px solid;
     margin: 20px;
     padding: 100px;
-    background-color: #bf9053;
-    
+    background-color: #bf9053;opacity: 0.8;
+    background-image: url("../img/coffee.png");
 }
 
 #logo {
     margin-left: 805px;
 }
+
+
 #menuPlanner,span {
     float: right;
     margin: 0 10px 0 20px;
 }
 
+ p {
+     
+    margin: 0 10px 0 20px;
+    color: white;
+    padding: 10px 40px;
+    font-size: 2.5em;
+    margin-left: 0px;
+    font-weight: bolder;
+    
+}
+
 nav {
     position: absolute;
-    right: 7.6em;
+    right: 5.7em;
     top: 5.2em;
     
 }
@@ -78,11 +88,44 @@ nav {
 
 }
 
+body li {
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: white;
+}
+
+aside {
+  background-color: #ad3b1f;
+  border: white 0.6px solid;
+  padding: 10px 20px;
+  margin: 0 10px 0 20px;
+}
+
 h1 {
-    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+h3 {
+    font-size: 2.3em;
+    color: #ea9538 ;
+    background-color: #ad3b1f;
+}
+
+h2 {
+font-size: 1.6em;
+color: white;
+background-color: #ad3b1f;
+}
+
+h4 {
+font-size: 1.3em;
+color: white;
+background-color: #ad3b1f;
 }
 
 footer {
     margin: 5px;
     color: white;
+    font-size: 1.3em;
 }

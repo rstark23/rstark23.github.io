@@ -1,9 +1,6 @@
 /* add your css on this page */
 body { 
-    background-color: #422a25;
-    color: #1E1B0E;
-    margin: 0;
-    padding: 0;
+    background-image: url("../img/background.png");   
 }
 
 header {
@@ -16,9 +13,9 @@ header {
 
 #MainArticle {
     border: white 2px solid;
-    margin: 20px;
+    margin: 50px;
     padding: 100px;
-    background-color: #bf9053;
+    background-color: #bf9053;opacity: 0.8;
     
 }
 
@@ -32,6 +29,11 @@ header {
     margin-left: 900px;
 }
 
+.row {
+  margin-right: 1400px;
+  margin-left: 5px;
+}
+
 #logo {
     margin-left: 805px;
 }
@@ -42,7 +44,7 @@ header {
 
 nav {
     position: absolute;
-    right: 6.8em;
+    right: 5.7em;
     top: 5.2em;
     
 }
@@ -96,4 +98,5 @@ h1 {
 footer {
     margin: 5px;
     color: white;
+    font-size: 1.3em;
 }
