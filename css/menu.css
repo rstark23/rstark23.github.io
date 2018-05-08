@@ -79,7 +79,7 @@ nav {
 }
 
 .navItem4 {
-    color: #b3b3b3;
+    color: gray;
     padding: 2em;
     font-size: 2.3em;
     font-weight: bolder;
@@ -95,27 +95,23 @@ body li {
 }
 
 aside {
+    width: 50%;
   background-color: #ad3b1f;
   border: white 0.6px solid;
   padding: 10px 20px;
   margin: 0 10px 0 20px;
+  float: right;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     color: white;
 }
 
 h3 {
-    font-size: 2.3em;
+    font-size: 1.8em;
     color: #ea9538 ;
     background-color: #ad3b1f;
-}
-
-h2 {
-font-size: 1.6em;
-color: white;
-background-color: #ad3b1f;
 }
 
 h4 {
@@ -128,4 +124,39 @@ footer {
     margin: 5px;
     color: white;
     font-size: 1.3em;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1px;
+  float: left;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 20%;
+  padding: 0 7px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }

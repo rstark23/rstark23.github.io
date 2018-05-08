@@ -16,7 +16,7 @@ header {
     margin: 20px;
     padding: 100px;
     background-color: #bf9053;opacity: 0.8;
-    
+    background-image: url("../img/coffee.png");
 }
 
 #logo {
@@ -30,12 +30,11 @@ header {
 }
 
  p {
+     width: 50%;
      text-align: center;
-    margin: 0 10px 0 20px;
     color: white;
-    padding: 10px 40px;
     font-size: 1.5em;
-    margin-left: 900px;
+    float: right;
     background-color: #ad3b1f;
     
 }
@@ -59,7 +58,7 @@ nav {
 }
 
 .navItem2 {
-    color: #b3b3b3;
+    color: gray;
     padding: 5.5em;
     font-size: 2.3em;
     font-weight: bolder;
@@ -97,4 +96,39 @@ footer {
     margin: 5px;
     color: white;
     font-size: 1.3em;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  float: left;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 20%;
+  padding: 0 7px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
