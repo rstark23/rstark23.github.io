@@ -26,6 +26,8 @@ header {
     color: white;
     font-size: 2em;
     float: right;
+    background-color: #ad3b1f;
+    border: white 1px solid;
 }
 
 .row {

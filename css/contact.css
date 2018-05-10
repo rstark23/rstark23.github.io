@@ -71,6 +71,12 @@ br {
     color: #ad3b1f;
 }
 
+p {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: bold;
+}
+
 #logo {
     margin-left: 805px;
 }
